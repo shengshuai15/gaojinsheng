@@ -1,8 +1,12 @@
 package Test01;
 
+import java.io.File;
+
 public class demo {
     public static void main(String[] args) {
-        int a = 5;
-        System.out.println("这是一次提交");
+        String dir = "C:\\Users\\gjins\\Desktop\\";
+        String b = "文本文档.txt";
+        File a = new File(dir,b);
+        System.out.println(a.getPath());
     }
 }
